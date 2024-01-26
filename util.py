@@ -1,12 +1,12 @@
 import streamlit as st
 
 
-placeholder_criteria = """1. Candidate eligible for Senior MLE interview loop as indicated by any 2 of the following:
-    a. PHD in Computer Science related field
-    b. 3+ years of industry experience
-    c. Expertise in ML frameworks as indicated by all of the following:
-        1. 4+ Open source contributions
-        2. Experience with pytorch
+placeholder_criteria = """• Candidate eligible for Senior MLE interview loop as indicated by any 2 of the following:
+    • PHD in Computer Science related field
+    • 3+ years of industry experience
+    • Expertise in ML frameworks as indicated by all of the following:
+        • 4+ Open source contributions
+        • Experience with pytorch
 """
 
 sample_output = {
