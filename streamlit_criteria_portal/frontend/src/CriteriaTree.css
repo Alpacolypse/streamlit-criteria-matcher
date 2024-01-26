@@ -1,0 +1,49 @@
+.tree {
+    text-align: left;
+    /*margin: 20px;*/
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .criteria, .disjunction-condition {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .sub-criteria {
+    border-left: 1px dashed #ddd;
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+  
+  .decision-true {
+    color: #28a745; /* Green for true */
+  }
+  
+  .decision-false {
+    color: #dc3545; /* Red for false */
+  }
+  
+  .decision-uncertain {
+    color: #ffc107; /* Yellow for uncertain */
+  }
+
+  .criteria-title {
+    cursor: pointer;
+    user-select: none; /* Prevent text selection on double click */
+  }
+  
+  .toggle-indicator {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .toggle-text {
+    margin-left: 5px; /* Adjust the spacing between the icon and the text as needed */
+  }
+  .tree, .criteria, .sub-criteria {
+    box-sizing: border-box;
+  }
+  
