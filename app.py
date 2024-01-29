@@ -21,7 +21,8 @@ if st.button('Evaluate'):
         # Assuming 'evaluate-document' API accepts POST requests with criteria and file
         files = {'document_file': target_document.getvalue()}
         data = {'criteria_text': criteria_input}
-        response = requests.post("http://54.170.52.94:8000/evaluate-document/", files=files, data=data)
+        #TODO: use a proper dns
+        response = requests.post("http://18.203.235.214:8000/evaluate-document/", files=files, data=data)
 
         if response.status_code == 200:
             output = response.json()
