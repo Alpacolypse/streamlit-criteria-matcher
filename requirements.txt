@@ -10,3 +10,4 @@ wandb
 langchain_openai 
 fastapi[all]
 uvicorn[standard]
+pysqlite3-binary
