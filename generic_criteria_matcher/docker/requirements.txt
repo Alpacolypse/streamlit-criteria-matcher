@@ -1,4 +1,3 @@
-streamlit-quill
 langchain 
 unstructured[all-docs] 
 pydantic 
@@ -10,3 +9,4 @@ wandb
 langchain_openai 
 fastapi[all]
 uvicorn[standard]
+devtools
